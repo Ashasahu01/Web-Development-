@@ -1,0 +1,12 @@
+<!doctype html>
+<html>
+    <head>
+        <!--this is my first html programming .
+        I am nervous as well as very exited for this-->
+            <title>my hobbies</title>
+            </head>
+    <body><b>HEY, This is ASHA SAHU.</b>
+        <p><i>i love photography and doing adventure things (such as kayaking, ziplining, rock-climbing, camping and tent making).</i.</p>
+    </body>
+    </html>
+    

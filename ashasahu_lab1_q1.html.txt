@@ -1,0 +1,10 @@
+<!doctype html>
+<html>
+   <head>
+      <title>my school</title>
+   </head>
+   <body>
+     <b>JAWAHAR NAVODAYA VIDYALAYA</b>
+     <h4> mana camp Raipur, Chhattisgarh </h4>  
+   </body>
+</html>
