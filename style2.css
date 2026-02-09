@@ -1,0 +1,48 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.table {
+  text-align: center;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+thead {
+  background: rgb(88, 14, 14);
+  color: white;
+}
+tbody {
+  background-color: aliceblue ;
+  color: #000000;
+  text-transform: capitalize;
+  font-size: 15px;
+  font-family:'Times New Roman';
+}
+
+.first-colm {
+    background-color: rgb(218, 215, 215);
+  width: 15%;
+  font-family: cursive;
+}
+
+tr,
+tr > td {
+  border: 2px solid black;
+}
+
+tr {
+  width: 150px; /* set width of each cell */
+  height: 80px;
+}
+
+.table-div {
+  width: 50%;
+}
+
+@media screen and (max-width: 815px) {
+  .table-div {
+    width: 90%;
+  }
+}

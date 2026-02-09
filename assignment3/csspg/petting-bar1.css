@@ -1,0 +1,60 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background: linear-gradient(to bottom, #87CEEB, #f4f8f4); /* Sky to grass */
+    min-height: 100vh;
+}
+
+.zoo {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    align-items: center;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+    width: 100%;
+}
+
+.animal {
+    font-size: 60px;
+    animation: loop 4s ease-in-out infinite; /* Base looping animation */
+    transition: transform 0.3s ease; /* Transition for hover */
+}
+
+.animal:hover {
+    transform: scale(1.2);
+}
+
+
+.bunny {
+    animation: bounce 2s ease-in-out infinite; 
+}
+
+.bird {
+    animation: fly bounce 3s infinite; 
+}
+
+.fish {
+    animation: swim 2.5s ease-in-out infinite; 
+}
+
+.cat {
+    animation: spin 3s linear infinite;
+}
+
+@keyframes bounce {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-20px); }
+}
+
+@keyframes fly {
+    0% { transform: translateX(0) rotate(0deg); }
+    100% { transform: translateX(50px) rotate(360deg); }
+}

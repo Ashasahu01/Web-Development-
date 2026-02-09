@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Smartphone Layout</title>
+  <link rel="stylesheet" href="csspg/smartphone1.css">
+</head>
+<body>
+  <div class="phone">
+    <div class="screen">
+      <div class="time" id="dateTime">--:--</div>
+
+      <div class="icons">
+        <div class="icon">📞<br>Phone</div>
+        <div class="icon">💬<br>Chat</div>
+        <div class="icon">📷<br>Camera</div>
+        <div class="icon">🌐<br>Browser</div>
+        <div class="icon">🎵<br>Music</div>
+      </div>
+
+      <div class="home-button"></div>
+    </div>
+  </div>
+
+  <script>
+    function updateTime() {
+      const now = new Date();
+      const timeStr = now.toLocaleTimeString([], {hour: '2-digit', minute:'2-digit'});
+      const dateStr = now.toLocaleDateString();
+      document.getElementById("dateTime").textContent = dateStr + " " + timeStr;
+    }
+    setInterval(updateTime, 1000);
+    updateTime();
+  </script>
+</body>
+</html>

@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+	<center> <h1>Pizza Hut</h1> </center>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style1.css" />
+    <link rel="stylesheet" href="style2.css" />
+    <title>index1</title>
+  </head>
+  <body>
+	 <div class="super-div">
+      <div class="main-div">
+        <form class="form">
+          <h1>Pizza Order Form</h1>
+          <fieldset id="first-field">
+            <legend>Order by :</legend>
+            <div>
+              <label for="name">Name : </label>
+              <input type="text" name="name" id="name" placeholder="Enter your first name" />
+            </div><br>
+            <div>
+              <label for="phone">Phone No : </label>
+              <input
+                type="tel" name="phone" id="phone" placeholder="+91 XXXXXXXXXX"
+              />
+            </div><br>
+			<div>
+				<label for="option"> Delivery Options :</label>
+		        <select name="option" id="option"> 
+			<option value=""> -- Select an option -- </option>
+			<option value="regular"> Regular Delivery </option>
+			<option value="dinein"> Dine In </option>
+			<option value="takeaway"> Takeaway </option>
+              </select>
+            </div>
+          </fieldset>
+
+		  <fieldset class="pizza-order">
+            <legend>Pizza Order :</legend>
+            <fieldset class="size">
+              <legend>Size</legend>
+              <div>
+                <input type="radio" name="size" id="small" value="small" />
+                <label for="small">Small</label>
+              </div>
+              <div>
+                <input type="radio" name="size" id="medium" value="medium" />
+                <label for="medium">Medium</label>
+              </div>
+              <div>
+                <input type="radio" name="size" id="large" value="large" />
+                <label for="large">Large</label>
+              </div>
+            </fieldset>
+            <fieldset class="topping">
+              <legend>Topping (Choose Multiple) :</legend>
+              <div>
+                <input type="checkbox" value="Pepperoni" />
+                <label for="Pepperoni">Pepperoni</label>
+              </div>
+              <div>
+                <input type="checkbox" value="Olives" />
+                <label for="Olives">Olives</label>
+              </div>
+              <div>
+                <input type="checkbox" value="Mushrooms" />
+                <label for="Mushrooms">Mushrooms</label>
+              </div>
+              <div>
+                <input type="checkbox" value="Peppers" />
+                <label for="Peppers">Peppers</label>
+              </div>
+            </fieldset>
+          </fieldset>
+          <fieldset class="text-area">
+            <legend>
+              Please let us know if you have allergies other consideration :
+            </legend>
+            <textarea
+              name=""
+              id=""
+              placeholder="Allergies or other notes"
+              rows="5"
+              cols="10"
+            ></textarea>
+          </fieldset>
+          <div class="button">
+            <button type="submit">Order Pizza</button>
+            <button type="reset">Clear Form</button>
+          </div>
+		</form>
+		</div>
+
+		<div class="table-div">
+        <h1 style="text-align: center">January Event</h1>
+        <table class="table">
+          <thead class="main-head">
+            <tr>
+              <td class="first-colm">Location</td>  
+              <th>Morning</th>
+              <th>Lunch</th>
+              <th>AfterNoon</th>
+              <th>Dinner</th>
+              <th>Evening</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td class="first-colm">citycenter</td>
+              <td rowspan="2">Flash sale</td>
+              <td colspan="3">SchoolOutreach</td>
+              <td rowspan="5">Cooking class</td>
+            </tr>
+            <tr>
+              <td class="first-colm">West End</td>
+              <td rowspan="2">build pizza</td>
+              <td colspan="2" rowspan="2">mascort picatures</td>
+            </tr>
+            <tr>
+              <td class="first-colm">East End</td>
+              <td>Free samples</td>
+            </tr>
+            <tr>
+              <td class="first-colm">North End</td>
+              <td colspan="2">Flash sale</td>
+              <td colspan="2">school outreach</td>
+            </tr>
+            <tr>
+              <td class="first-colm">South End</td>
+              <td colspan="3">surprise coupon</td>
+              <td>free samples</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+  </body>
+  </html>
